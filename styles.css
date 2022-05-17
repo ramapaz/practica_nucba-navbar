@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(5,168,175);
+    background: linear-gradient(90deg, rgba(5,168,175,1) 0%, rgba(4,141,246,1) 0%, rgba(3,209,209,1) 100%, rgba(0,255,248,0.9336247010664507) 100%);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.logo h1{
+    color: rgb(5,168,175);
+    padding: 2 250px;
+    height: 40px;
+    font-family: "Oleo Script Swash Caps", cursive; 
+
+
+    
+}
+
+.header{
+    background: #292B2C;
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+    align-items: center;
+    height: 60px;
+    padding: 3 700px;
+    
+}
+
+.nav-list{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: rgb(5,168,175);
+}
+
